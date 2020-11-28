@@ -1,0 +1,129 @@
+.heading-section {
+  margin-top: 5em;
+}
+
+.main-heading {
+  color: #4f4f4f;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.tw-button-link:hover,
+.tw-button-link {
+  border: unset;
+  background-color: transparent;
+  color: #000000;
+}
+
+.tw-button {
+  color: #000000;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: capitalize;
+  background-color: white;
+  border-color: #f36888;
+  width: auto;
+  height: 40px;
+  padding: 0 16px;
+  min-width: 40px;
+  min-height: auto;
+  border-radius: 24px;
+}
+
+.list-dropdown {
+  position: relative;
+  border: unset;
+  text-align: left;
+  color: var(--color-surface-dark);
+  background: transparent;
+  min-width: 320px;
+  border-bottom: 1px solid var(--color-surface-lighter);
+  border-radius: unset;
+}
+.list-dropdown.dropdown-toggle::after {
+  position: absolute;
+  right: 5px;
+  top: 18px;
+}
+
+.dropdown-menu {
+  min-width: 320px;
+  box-shadow: 0px 15px 30px rgba(83, 83, 83, 0.15);
+  border: unset;
+}
+
+.dropdown-menu:active {
+  background: transparent;
+}
+
+.dropdown-menu button:hover {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.list-dropdown:focus {
+  color: var(--color-surface-dark);
+  background: transparent;
+}
+
+.dropdown .btn-primary:hover {
+  background-color: white !important;
+  border-color: var(--color-surface-lighter);
+  color: black !important;
+}
+
+.dropdown .btn-primary:active {
+  background-color: white !important;
+  border-color: var(--color-surface-lighter) !important;
+  color: black !important;
+}
+
+.show > .btn-primary.dropdown-toggle {
+  background-color: white !important;
+  border-color: var(--color-surface-lighter) !important;
+  color: black !important;
+}
+
+.accordion-section {
+  margin-top: 1em;
+}
+
+.accordion-container {
+  padding: 15px 0 15px;
+}
+
+.acordion-heading {
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-right: 10px;
+  color: #2f2f2f;
+}
+
+.icon-open {
+  transform: rotate(0deg);
+}
+
+.icon-close {
+  transform: rotate(-90deg);
+}
+
+@media (max-width: 768px) {
+  .list-dropdown {
+    width: 100%;
+  }
+  .list-dropdown div {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dropdown-menu {
+    min-width: 250px;
+  }
+}

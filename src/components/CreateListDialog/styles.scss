@@ -1,0 +1,40 @@
+.tw-button-filled {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: capitalize;
+    width: auto;
+    height: 40px;
+    padding: 0 16px;
+    min-width: 40px;
+    min-height: auto;
+    border-radius: 24px;
+    background-color: var(--color-primary);
+    border: unset;
+    min-width: 125px;
+  }
+
+  .modal-body {
+      padding: 3em;
+  }
+
+  .modal-heading {
+    padding-bottom: 1.5em;
+  }
+
+  .modal-input::placeholder {
+    color: #999999;
+  }
+
+  .modal-input {
+      width: 100%;
+      border: unset;
+      border-bottom: 1px solid var(--color-surface-lighter);
+  }
+
+  select:not(:valid) {
+    color: #999999;
+    line-height: 20px;
+    font-size: 16px;
+  }

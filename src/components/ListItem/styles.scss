@@ -1,0 +1,77 @@
+.remove-btn {
+  width: 23px;
+  height: 23px;
+  margin-right: 8px;
+  border-radius: 50%;
+  border: 1px solid #b8b8b8;
+  background: transparent;
+  padding: 0px;
+}
+
+.remove-btn svg {
+  position: relative;
+  top: -3px;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.count-btn {
+  width: 25px;
+  height: 25px;
+  margin: 0px 8px;
+  border-radius: 50%;
+  color: white;
+  border: unset;
+  background-color: var(--color-accent);
+}
+
+.count-value {
+  width: 25px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.count-btn .plus {
+  top: -5px;
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.count-btn .minus {
+  top: -5px;
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.count-zero-container {
+  width: 107px;
+  text-align: center;
+}
+
+.count-btns-container {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
